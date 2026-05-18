@@ -1,0 +1,462 @@
+@font-face {
+    font-family: 'Athelas';
+    src: url('fonts/Athelas-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+*{
+    font-family: 'Athelas', sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.background_container{
+    width: 1920px;
+    margin: 0 auto;
+}
+.basic-text {
+    font-weight: 400;
+}
+.ghost-text {
+    opacity: 10%;
+    font-size: 235px;
+}
+a, a:visited{
+    color: inherit;
+}
+a:hover, a:active{
+    color: bisque;
+}
+h1{
+    font-size: 85px;
+    font-weight: 400;
+}
+h2{
+    font-weight: 400;
+    font-size: 48px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row ;
+    align-items: center;
+}
+.flex_row{
+     display: flex;
+    flex-direction: row;
+}
+.flex_col {
+    display: flex;
+    flex-direction: column;
+}
+.flex_around{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    font-weight: 400;
+    font-size: 85px;
+}
+
+/* Header */
+header {
+    background: url(pics/header/fon_shapka_1.png);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    background-size: cover;
+}
+.start{
+    padding-top: 61px;
+}
+header a {
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 50px;
+}
+header h1{
+    font-size: 85px;
+    font-weight: 400;
+
+    position: relative;
+    top: -310px;
+    left: 20px
+}
+.pic1 {
+    margin-left: auto;
+    width: 642px;
+}
+header .ghost-text{
+    position: relative;
+    top:70px;
+}
+.shape1{
+    position: relative;
+    top: 8px;
+    left: 390px;
+}
+.shape2{
+    position: relative;
+    bottom: 17px;
+    left: 335px;
+}
+.watchp{
+    width: 152px;
+    position: relative;
+    top: -60px;
+    left: 500px;
+}
+.presentation{
+    position: relative;
+    top:-240px;
+    cursor: pointer;
+}
+/* Main */
+
+/* More about company */
+.More{
+    background: url(pics/Rectangle_34.jpg);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    background-size: cover;
+}
+.moreabout{
+    max-width: 462px;
+    font-size: 22px;
+    margin-top: 64px;
+}
+.more_text{
+    position: relative;
+    top: -153px;
+}
+/* More: pictures */
+.hard_position{
+    margin-left: 276px;
+}
+.pict3 {
+    width: 441px;
+}
+.pict2 {
+    width: 492px;
+}
+.pict1 {
+    width: 463px;
+}
+
+/* Arenda vitrin*/
+.Rent{
+    background: url(pics/arenda_vitrin/Rectangle_36.jpg);
+    background-repeat: no-repeat;
+    color: #000000;
+    background-size: cover;
+}
+.invite{
+    font-size: 30px;
+    width: 542px;
+}
+/* Arenda vitrin: pictures*/
+.pict4{
+    width: 610px;
+    
+}
+.pict5{
+    width: 608px;
+}
+
+/* Order */
+.Order{
+    background: url(pics/order/Rectangle_38.jpg);
+    background-repeat: no-repeat;
+    color: #ffffff;
+    background-size: cover;
+}
+.order_span{
+    margin-top: 27px;
+}
+.flex_order{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    margin-right: 36px;
+    margin-bottom: 73px;
+}
+.ord{
+    align-items: center;
+}
+.order_p{
+    width: 469px;
+    margin-top: 59px;
+    margin-left: 22px;
+    font-size: 22px;
+}
+.order_pos{
+    margin-left: 27px;
+}
+.order_head{
+    align-items: center;
+    padding-top: 146px;
+    margin-bottom: 123px;
+}
+/* Order: pictures */
+.pict68{
+    width: 610px;
+}
+.pict79{
+    width: 603px;
+}
+/* Partnership */
+.Partnership{
+    background: url(pics/partnership/Rectangle51.jpg);
+    background-repeat: no-repeat;
+    color: #000000;
+    background-size: cover;
+}
+.partnership_textblock{
+    margin-top: 171px;
+    margin-bottom: 171px;
+    margin-left: 78px;
+}
+.partnership h2{
+    width: 615px;
+    font-weight: 400;
+    font-size: 64px;
+}
+.partnership_p{
+    width: 397px;
+    font-size: 24px;
+    margin-top: 82px;
+}
+.partnership_num{
+    font-weight: 400;
+    font-size: 24px;
+}
+.flex_part{
+    display: flex;
+    flex-direction: row;
+    padding-top: 66px;
+}
+.phone{
+    width: 24px;
+}
+
+/* Models */
+.Models{
+    background-image: url(pics/models/clock2.jpg);
+    background-repeat: no-repeat;
+    color: #ffffff;
+    background-size: cover;
+}
+.Models img{
+    cursor: pointer;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+
+    width: 408px;
+    list-style-image: url("pics/models/Ellipse31.svg");
+    font-size: 22px;
+}
+ul span{
+    font-weight: bold;
+    font-size: 22px;
+}
+.cols{
+    display: flex;
+    flex-direction: row;
+    margin-top: 196px;
+    margin-bottom: 111px;
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.minipics{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.back {
+    display: flex;
+    flex-direction: row;
+
+    width: 86px;
+    font-weight: 700;
+    font-size: 24px;
+
+    margin-top: 42px;
+    margin-bottom: 37px;
+}
+.back img{
+    width: 12px;
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 48px;
+}
+.col2 p img{
+        width: 17px;
+        border: 4px;
+        }
+.right_ul{
+    margin-left: 30px;
+}
+.bot_ul{
+    margin-top: 51px;
+    margin-bottom: 138px;
+}
+
+/* News */
+.News{
+    background-image: url(pics/news/Rectangle78.jpg);
+    background-repeat: no-repeat;
+    color: #000000;
+    background-size: cover;
+}
+.news_head{
+    align-items: center;
+    padding-top: 94px;
+    margin-bottom: 97px;
+}
+.news_span{
+    width: 83px;
+    font-weight: 400;
+    font-size: 40px;
+    align-items: center;
+}
+.news_p{
+    width: 469px;
+    margin-top: 59px;
+    font-size: 22px;
+}
+.flex_news{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+
+    margin-bottom: 73px;
+}
+.blocks{
+    display: flex;
+    flex-direction: column;
+}
+.read{
+    display: flex;
+    width: 192px;
+    margin-top: 9px;
+    margin-left: 22px;
+    font-size: 22px;
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+.button2{
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    justify-content: center;
+}
+button{
+    width: 190px;
+    height: 49px;
+    
+    margin-bottom: 117px;
+    cursor: pointer;
+}
+
+/* Contacts */
+.Contacts{
+    background: url(pics/contacts/map.jpg);
+    background-repeat: no-repeat;
+    color: #ffffff;
+    background-size: cover;
+}
+.rect{
+    width: 399px;
+    padding-top: 90px;
+    padding-right: 1180px;
+    padding-left: 341px;
+    padding-bottom: 100px;
+}
+.rect h2{
+    width: 206px;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 24px;
+    border-color: #FFFFFF;
+    border-width: 1px;
+}
+.flex_contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+.button3 button{
+    border-color: #FFFFFF;
+    border-width: 1px;
+    width: 282px;
+    height: 49px;
+    background:none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.Contacts p{
+    width: 200px;
+    padding-left: 11px;
+}
+
+/* Footer */
+.Footer{
+    background: url(pics/footer/f_rect.jpg);
+    background-repeat: no-repeat;
+    color: #ffffff;
+    background-size: cover;
+}
+.f_general{
+    display: flex;
+    flex-direction: row;
+    gap: 112px;
+    padding-top: 89px;
+    padding-bottom: 97px;
+}
+.f_general img{
+    
+    width: 140px;
+    height: 51px;
+}
+.footer_links{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    font-weight: 400;
+    font-size: 24px;
+}
+footer a:hover{
+    color: bisque;
+}
+.f_media{
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    margin-left: 702px;
+    align-items: flex-end;
+}
+.f_media img{
+    width: 36px;
+}
